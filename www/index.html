@@ -32,9 +32,13 @@
             <h1>Apache Cordova</h1>
             <div id="deviceready" class="blink">
                 <p class="event listening">Connecting to Device</p>
-                <p class="event received">Device is Ready</p>
+                <p id="books" class="event received">Device is Ready</p>
+                <button id="Location">Where are we?</button>
+                <input id="city" value=""></input>
             </div>
+            
         </div>
+        
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
         <script type="text/javascript">
